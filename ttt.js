@@ -2,7 +2,7 @@ var c=0;
 var k=1;
 function reset(){
     for(var i=1;i>=9;i++){
-        document.getElementById("p"+1).innerHTML="";
+        document.getElementById("p"+i).innerHTML="";
     }
     c=0;
 }
